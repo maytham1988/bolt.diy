@@ -3,5 +3,5 @@ compatibility_flags = ["nodejs_compat"]
 compatibility_date = "2024-07-01"
 pages_build_output_dir = "./build/client"
 
-# این قسمت برای مشخص کردن نقطه ورودی به کار می‌آید
-main = "src/index.js"  # مسیر فایل ورودی شما
+# اضافه کردن نقطه ورودی
+main = "src/index.js"  # به مسیر فایل ورودی خود اشاره کنید
