@@ -1,10 +1,7 @@
-name = "boltyyyy"
+name = "bolty"
 compatibility_flags = ["nodejs_compat"]
 compatibility_date = "2024-07-01"
-send_metrics = false
+pages_build_output_dir = "./build/client"
 
-type = "worker"
-
-[build]
-command = "npm run build"  # یا دستور مناسب برای پروژه شما
-cwd = "."
+# این قسمت برای مشخص کردن نقطه ورودی به کار می‌آید
+main = "src/index.js"  # مسیر فایل ورودی شما
